@@ -87,8 +87,7 @@ nine_nine = 0
 
 # end of board variables
 
-def board():
-    return f"\n1 2 3 4 5 6 7 8 9\n{one_one} {one_two} {one_three} {one_four} {one_five} {one_six} {one_seven} {one_eight} {one_nine}\n{two_one} {two_two} {two_three} {two_four} {two_five} {two_six} {two_seven} {two_eight} {two_nine}\n{three_one} {three_two} {three_three} {three_four} {three_five} {three_six} {three_seven} {three_eight} {three_nine}\n{four_one} {four_two} {four_three} {four_four} {four_five} {four_six} {four_seven} {four_eight} {four_nine}\n{five_one} {five_two} {five_three} {five_four} {five_five} {five_six} {five_seven} {five_eight} {five_nine}\n{six_one} {six_two} {six_three} {six_four} {six_five} {six_six} {six_seven} {six_eight} {six_nine}\n{seven_one} {seven_two} {seven_three} {seven_four} {seven_five} {seven_six} {seven_seven} {seven_eight} {seven_nine}\n{eight_one} {eight_two} {eight_three} {eight_four} {eight_five} {eight_six} {eight_seven} {eight_eight} {eight_nine}\n{nine_one} {nine_two} {nine_three} {nine_four} {nine_five} {nine_six} {nine_seven} {nine_eight} {nine_nine}\n"
+board = f"\n1 2 3 4 5 6 7 8 9\n{one_one} {one_two} {one_three} {one_four} {one_five} {one_six} {one_seven} {one_eight} {one_nine}\n{two_one} {two_two} {two_three} {two_four} {two_five} {two_six} {two_seven} {two_eight} {two_nine}\n{three_one} {three_two} {three_three} {three_four} {three_five} {three_six} {three_seven} {three_eight} {three_nine}\n{four_one} {four_two} {four_three} {four_four} {four_five} {four_six} {four_seven} {four_eight} {four_nine}\n{five_one} {five_two} {five_three} {five_four} {five_five} {five_six} {five_seven} {five_eight} {five_nine}\n{six_one} {six_two} {six_three} {six_four} {six_five} {six_six} {six_seven} {six_eight} {six_nine}\n{seven_one} {seven_two} {seven_three} {seven_four} {seven_five} {seven_six} {seven_seven} {seven_eight} {seven_nine}\n{eight_one} {eight_two} {eight_three} {eight_four} {eight_five} {eight_six} {eight_seven} {eight_eight} {eight_nine}\n{nine_one} {nine_two} {nine_three} {nine_four} {nine_five} {nine_six} {nine_seven} {nine_eight} {nine_nine}\n"
 
 player1_turn = True
 player2_turn = False
@@ -96,6 +95,6 @@ player2_turn = False
 if player1_turn:
     print("It is player 1's turn")
 
-#print(board())
+print(board)
 
 input("Press Enter to end")
