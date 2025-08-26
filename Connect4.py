@@ -107,7 +107,4 @@ for row in grid:
 player1_turn = True
 player2_turn = False
 
-if player1_turn:
-    print("It is player 1's turn")
-
 input("Press Enter to end")
